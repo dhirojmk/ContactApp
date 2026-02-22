@@ -162,7 +162,7 @@ fun ContactCard(
             if (image != null) {
                 Image(
                     bitmap = image,
-                    contentDescription = "contact image",
+                    contentDescription = null,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
                         .size(64.dp)
